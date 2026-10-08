@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Rosana Doces",
+    "slug": "precifica-limpo",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/logo_ro.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.felipeao2205.precificalimpo",
+      "softwareKeyboardLayoutMode": "resize",
+      "adaptiveIcon": {
+        "backgroundColor": "#F6A6C1",
+        "foregroundImage": "./assets/teste_ro.png",
+        "monochromeImage": "./assets/mono_logo.png"
+      }
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "backgroundColor": "#FFF5F8"
+        }
+      ]
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b0f920e0-8592-4587-b11f-67a471c50fb3"
+      }
+    }
+  }
+}
